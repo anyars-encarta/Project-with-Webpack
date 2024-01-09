@@ -6,7 +6,7 @@ function generateJoke () {
             Accept: 'application/json',
         },
     }
-    // The jok
+    // The
     axios.get('https://icanhazdadjoke.com', config).then((res) => {
         document.getElementById('joke').innerHTML = res.data.joke
     })
